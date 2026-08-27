@@ -1,0 +1,32 @@
+%%{init: {"flowchart": {"wrappingWidth": 420}, "themeVariables": {"fontSize": "20px", "fontFamily": "Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif", "primaryColor": "#e3f2fd", "primaryTextColor": "#1e293b", "primaryBorderColor": "#1a73e8", "lineColor": "#1a73e8", "secondaryColor": "#fff3e0", "tertiaryColor": "#e8f5e9", "background": "#ffffff", "edgeLabelBackground": "#ffffff", "clusterBkg": "#f5f7fa", "clusterBorder": "#e2e8f0", "titleColor": "#1a73e8"}}}%%
+flowchart LR
+    subgraph CONTEXT["<b>Decision context</b>"]
+        direction LR
+        GOAL["<b>🎯 Decision</b><br/>Tool or process"] --> CONSTRAINTS["<b>📐 Constraints</b><br/>Budget + timeline + security"]
+    end
+    subgraph LENSES["<b>Three lenses</b>"]
+        direction LR
+        RISK["<b>🛡️ Risk manager</b><br/>Failure + controls"]
+        OPTIMIST["<b>🚀 Optimist</b><br/>Value + adoption"]
+        PM["<b>🗓️ Project manager</b><br/>Effort + ownership"]
+    end
+    subgraph SYNTHESIS["<b>Inspectable output</b>"]
+        direction LR
+        DEBATE["<b>💬 Debate</b><br/>Assumptions + arguments"] --> TABLE["<b>📊 Consensus table</b><br/>Risks + rewards + gaps"]
+        TABLE --> CHECK{"<b>Claims verified?</b>"}
+        CHECK -- "no" --> GAPS["<b>⚠️ Evidence needed</b>"]
+        GAPS -.-> CONTEXT
+        CHECK -- "yes" --> RECOMMEND["<b>✅ Recommendation</b><br/>Confidence + caveats"]
+    end
+    CONTEXT --> LENSES
+    LENSES --> SYNTHESIS
+    style GOAL fill:#e3f2fd,stroke:#1a73e8
+    style CONSTRAINTS fill:#e3f2fd,stroke:#1a73e8
+    style RISK fill:#fff3e0,stroke:#e65100
+    style OPTIMIST fill:#fff3e0,stroke:#e65100
+    style PM fill:#fff3e0,stroke:#e65100
+    style DEBATE fill:#f3e5f5,stroke:#7b1fa2
+    style TABLE fill:#f3e5f5,stroke:#7b1fa2
+    style CHECK fill:#fff3e0,stroke:#e65100
+    style GAPS fill:#fce4ec,stroke:#c62828
+    style RECOMMEND fill:#e8f5e9,stroke:#2e7d32

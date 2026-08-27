@@ -1,0 +1,30 @@
+%%{init: {"flowchart": {"wrappingWidth": 420}, "themeVariables": {"fontSize": "20px", "fontFamily": "Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif", "primaryColor": "#e3f2fd", "primaryTextColor": "#1e293b", "primaryBorderColor": "#1a73e8", "lineColor": "#1a73e8", "secondaryColor": "#fff3e0", "tertiaryColor": "#e8f5e9", "background": "#ffffff", "edgeLabelBackground": "#ffffff", "clusterBkg": "#f5f7fa", "clusterBorder": "#e2e8f0", "titleColor": "#1a73e8"}}}%%
+flowchart LR
+    subgraph REQUEST["<b>Prompt</b>"]
+        direction LR
+        USER["<b>👤 User goal</b><br/>Project status"] --> SCOPE["<b>🎯 Scope</b><br/>Project + recency"]
+    end
+    subgraph SOURCES["<b>Connected Workspace</b>"]
+        direction LR
+        GMAIL[("<b>✉️ Gmail</b><br/>Latest thread")] --> EVIDENCE["<b>🔎 Retrieved evidence</b><br/>Blockers + dates"]
+        DRIVE[("<b>📄 Drive / Docs</b><br/>Project specification")] -.-> EVIDENCE
+    end
+    subgraph RESPONSE["<b>Grounded output</b>"]
+        direction LR
+        COMPARE["<b>⚖️ Compare</b><br/>Blockers vs deliverables"] --> REPORT["<b>📋 Status report</b><br/>Evidence + inference"]
+        REPORT --> VERIFY{"<b>Sources checked?</b>"}
+        VERIFY -- "yes" --> SHARE["<b>✅ Ready to share</b>"]
+        VERIFY -- "no" --> REFINE["<b>🔁 Refine prompt</b><br/>Check dates and scope"]
+    end
+    REQUEST --> SOURCES
+    SOURCES --> RESPONSE
+    style USER fill:#e3f2fd,stroke:#1a73e8
+    style SCOPE fill:#e3f2fd,stroke:#1a73e8
+    style GMAIL fill:#fff3e0,stroke:#e65100
+    style DRIVE fill:#fff3e0,stroke:#e65100
+    style EVIDENCE fill:#f3e5f5,stroke:#7b1fa2
+    style COMPARE fill:#f3e5f5,stroke:#7b1fa2
+    style REPORT fill:#e8f5e9,stroke:#2e7d32
+    style VERIFY fill:#fff3e0,stroke:#e65100
+    style SHARE fill:#e8f5e9,stroke:#2e7d32
+    style REFINE fill:#fce4ec,stroke:#c62828
