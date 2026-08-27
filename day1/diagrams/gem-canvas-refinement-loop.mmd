@@ -1,0 +1,32 @@
+%%{init: {"flowchart": {"wrappingWidth": 420}, "themeVariables": {"fontSize": "20px", "fontFamily": "Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif", "primaryColor": "#e3f2fd", "primaryTextColor": "#1e293b", "primaryBorderColor": "#1a73e8", "lineColor": "#1a73e8", "secondaryColor": "#fff3e0", "tertiaryColor": "#e8f5e9", "background": "#ffffff", "edgeLabelBackground": "#ffffff", "clusterBkg": "#f5f7fa", "clusterBorder": "#e2e8f0", "titleColor": "#1a73e8"}}}%%
+flowchart LR
+    subgraph DESIGN["<b>Reusable assistant</b>"]
+        direction LR
+        GOAL["<b>🎯 Recurring goal</b><br/>Edit a draft"] --> INSTRUCTIONS["<b>🧾 Gem contract</b><br/>Role + task + context + format"]
+        INSTRUCTIONS --> SAVE["<b>💾 Save Gem</b><br/>Preview first"]
+    end
+    subgraph WORK["<b>Canvas workflow</b>"]
+        direction LR
+        DRAFT["<b>📝 Draft</b><br/>Original text"] --> SELECT["<b>🔍 Select</b><br/>One paragraph"]
+        SELECT --> REQUEST["<b>✍️ Targeted edit</b><br/>Tone, logic, or clarity"]
+        REQUEST --> VERSION["<b>↩️ Review version</b><br/>Keep or reject"]
+    end
+    subgraph REVIEW["<b>Human control</b>"]
+        direction LR
+        CHECK{"<b>Meaning preserved?</b>"} -- "yes" --> POLISH["<b>✅ Polished draft</b>"]
+        CHECK -- "no" --> ADJUST["<b>⚠️ Adjust instructions</b>"]
+        ADJUST -.-> INSTRUCTIONS
+    end
+    DESIGN --> WORK
+    WORK --> REVIEW
+    VERSION --> CHECK
+    style GOAL fill:#e3f2fd,stroke:#1a73e8
+    style INSTRUCTIONS fill:#f3e5f5,stroke:#7b1fa2
+    style SAVE fill:#e8f5e9,stroke:#2e7d32
+    style DRAFT fill:#e3f2fd,stroke:#1a73e8
+    style SELECT fill:#fff3e0,stroke:#e65100
+    style REQUEST fill:#fff3e0,stroke:#e65100
+    style VERSION fill:#f3e5f5,stroke:#7b1fa2
+    style CHECK fill:#fff3e0,stroke:#e65100
+    style POLISH fill:#e8f5e9,stroke:#2e7d32
+    style ADJUST fill:#fce4ec,stroke:#c62828

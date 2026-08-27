@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../gemini-pro-companion"
+		},
+		{
+			"path": "../gemini-pro-setup"
+		}
+	],
+	"settings": {
+		"markdown.marp.themes": [
+			"./assets/theme.css"
+		],
+		"markdown.marp.html": "all",
+		"markdown-pdf.scale": 1,
+		"markdown-pdf.styles": [
+			"./.vscode/markdown-pdf.css"
+		]
+	}
+}
