@@ -8,6 +8,12 @@
 		},
 		{
 			"path": "../gemini-pro-setup"
+		},
+		{
+			"path": "../gemini-pro-book"
+		},
+		{
+			"path": "../gemini-pro-book-companion"
 		}
 	],
 	"settings": {
