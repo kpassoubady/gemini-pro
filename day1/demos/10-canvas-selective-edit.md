@@ -6,8 +6,10 @@ Demonstrate how to refine one paragraph while preserving the original argument.
 
 ## Prompt
 
+Replace the bracketed placeholder with your editing goal.
+
 ```text
-Keep the claim and intended audience unchanged. Make this selected paragraph more precise by removing one cliché and clarifying the missing logical link. Do not add facts that are not in the draft. List the change you made and one question the writer should answer.
+Keep the claim and intended audience unchanged. Make this selected paragraph more precise by [EDITING-GOAL]. Do not add facts that are not in the draft. List the change you made and one question the writer should answer.
 ```
 
 ## Delivery

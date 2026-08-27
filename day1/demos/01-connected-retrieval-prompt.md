@@ -10,8 +10,10 @@ Use a prepared, non-sensitive project email thread and matching specification in
 
 ## Prompt
 
+Replace the bracketed placeholders with details from your project.
+
 ```text
-@Gmail Find the most recent email thread about Project Northstar. List the blockers stated in the thread, including the date and supporting excerpt. Then use @Google Drive to compare those blockers with the Project Northstar Phase 1 specification. Return a table with blocker, source evidence, affected deliverable, and unresolved question. Clearly label evidence versus inference.
+@Gmail Find the most recent email thread about [PROJECT-NAME]. List the blockers stated in the thread, including the date and supporting excerpt. Then use @Google Drive to compare those blockers with [SPECIFICATION-NAME] for [PROJECT-PHASE]. Return a table with blocker, source evidence, affected deliverable, and unresolved question. Clearly label evidence versus inference.
 ```
 
 ## Delivery

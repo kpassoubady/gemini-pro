@@ -122,7 +122,7 @@ A connected prompt names the project, scopes the sources, and requests a useful 
 
 # Scope the Request
 
-A vague request: “Catch me up on Northstar.”
+A vague request: “Catch me up on [PROJECT-NAME].”
 
 A bounded request names:
 
@@ -163,23 +163,25 @@ A bounded request names:
 
 # Prompt Pattern
 
+Replace the bracketed placeholders with details from your project.
+
 ```text
-@Gmail Find the latest Northstar thread and list blockers
+@Gmail Find the latest [PROJECT-NAME] thread and list blockers
 with dates and supporting excerpts. Use @Google Drive to
-compare them with the Phase 1 specification. Return a table
-with blocker, evidence, affected deliverable, and open question.
-Label evidence separately from inference.
+compare them with [SPECIFICATION-NAME] for [PROJECT-PHASE].
+Return a table with blocker, evidence, affected deliverable,
+and open question. Label evidence separately from inference.
 ```
 
 ---
 
 # Evidence or Inference?
 
-**Evidence:** The source states that the payment test is blocked.
+**Evidence:** The source states that [BLOCKED-ITEM] is blocked.
 
-**Inference:** Phase 1 may slip because the payment test is blocked.
+**Inference:** [PROJECT-PHASE] may slip because [BLOCKED-ITEM] is blocked.
 
-**Open question:** Does the specification make the payment test a Phase 1 requirement?
+**Open question:** Does [SPECIFICATION-NAME] make [BLOCKED-ITEM] a [PROJECT-PHASE] requirement?
 
 Ask Gemini to label these categories instead of blending them.
 

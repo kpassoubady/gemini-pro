@@ -6,8 +6,10 @@ Demonstrate a controlled handoff from a verified Sheet to a concise Google Docs 
 
 ## Prompt
 
+Replace the bracketed placeholders with details from your tracker and audience.
+
 ```text
-Using only the confirmed facts in the project tracker, draft an internal announcement for the software launch team. Include the milestone, owners, current status, next action, and date. Do not invent a deadline or imply approval. Use a concise, professional tone and end with one clear call to action.
+Using only the confirmed facts in [PROJECT-TRACKER-NAME], draft an internal announcement for [AUDIENCE]. Include the milestone, owners, current status, next action, and date. Do not invent a deadline or imply approval. Use a concise, professional tone and end with one clear call to action.
 ```
 
 ## Delivery

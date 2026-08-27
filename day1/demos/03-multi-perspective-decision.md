@@ -6,8 +6,10 @@ Show how role separation and an output schema expose tradeoffs in a software-too
 
 ## Prompt
 
+Replace the bracketed placeholders with details from your decision.
+
 ```text
-We are deciding whether a 40-person operations team should adopt a new project-management tool. Constraints: a 60-day rollout, a fixed budget, existing Google Workspace usage, and a requirement to preserve project history. Have a cynical risk manager, a visionary optimist, and a pragmatic project manager debate the decision. For each role, list assumptions, strongest argument, risks, and evidence needed. End with a consensus table of risks, rewards, recommendation, confidence, and unresolved questions. Mark claims that require verification.
+We are deciding whether a [TEAM-SIZE]-person [TEAM-FUNCTION] team should adopt [TOOL-OR-PROCESS]. Constraints: a [ROLLOUT-PERIOD] rollout, [BUDGET-CONSTRAINT], existing [CURRENT-PLATFORM] usage, and [DATA-RETENTION-REQUIREMENT]. Have a cynical risk manager, a visionary optimist, and a pragmatic project manager debate the decision. For each role, list assumptions, strongest argument, risks, and evidence needed. End with a consensus table of risks, rewards, recommendation, confidence, and unresolved questions. Mark claims that require verification.
 ```
 
 ## Delivery

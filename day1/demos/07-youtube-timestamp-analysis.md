@@ -6,8 +6,10 @@ Show how a focused multimodal prompt extracts arguments from a public video whil
 
 ## Prompt
 
+Replace the bracketed placeholders with details from your video and analysis goal.
+
 ```text
-Analyze this public tutorial. Do not provide a general summary. Identify three controversial or counter-intuitive points the speaker makes. For each, give the exact timestamp in MM:SS format, the speaker’s supporting argument, and one credible reason a detractor might disagree. Mark any timestamp or claim that needs checking.
+Analyze [VIDEO-TITLE-OR-URL]. Do not provide a general summary. Identify [NUMBER-OF-POINTS] points related to [ANALYSIS-FOCUS]. For each, give the exact timestamp in MM:SS format, the speaker’s supporting argument, and one credible reason a detractor might disagree. Mark any timestamp or claim that needs checking.
 ```
 
 ## Delivery

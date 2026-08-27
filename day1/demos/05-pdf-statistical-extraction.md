@@ -6,8 +6,10 @@ Show a multi-step document workflow that preserves claims, page references, cont
 
 ## Prompt
 
+Replace the bracketed placeholder with the report you want to analyze.
+
 ```text
-Do not summarize this report. Extract every statistical claim into one row per claim. Return a table with Claim, Page Number, Surrounding Context, Population or Denominator, and Methodology Question. Copy numbers exactly. If a page reference or value is ambiguous, mark it as unresolved instead of guessing.
+Do not summarize [REPORT-NAME]. Extract every statistical claim into one row per claim. Return a table with Claim, Page Number, Surrounding Context, Population or Denominator, and Methodology Question. Copy numbers exactly. If a page reference or value is ambiguous, mark it as unresolved instead of guessing.
 ```
 
 ## Delivery

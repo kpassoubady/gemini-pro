@@ -6,8 +6,10 @@ Demonstrate how to revise a multi-persona prompt when every role gives broad, in
 
 ## Revision request
 
+Replace the bracketed placeholders with your decision criteria.
+
 ```text
-The role responses are too generic. Re-run the analysis using these concrete criteria: migration must finish in 60 days, the tool must export existing records, administrators need audit logs, and the team has two hours per week for training. For each criterion, show which role raised it, the evidence needed, and whether it changes the recommendation. Identify the strongest rejected alternative.
+The role responses are too generic. Re-run the analysis using these concrete criteria: migration must finish within [ROLLOUT-PERIOD], the tool must [DATA-EXPORT-REQUIREMENT], administrators need [GOVERNANCE-REQUIREMENT], and the team has [TRAINING-CAPACITY] for training. For each criterion, show which role raised it, the evidence needed, and whether it changes the recommendation. Identify the strongest rejected alternative.
 ```
 
 ## Delivery

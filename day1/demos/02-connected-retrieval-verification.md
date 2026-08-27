@@ -10,8 +10,10 @@ Use a prepared sample in which an older Gmail thread contains a superseded block
 
 ## Prompt
 
+Replace the bracketed placeholders with details from your project.
+
 ```text
-@Gmail For Project Northstar, identify the latest thread that discusses the release blocker. Return the thread date, sender, exact blocker wording, and current status. Do not infer a resolution if the thread does not state one. Use @Google Drive to identify the corresponding Phase 1 requirement.
+@Gmail For [PROJECT-NAME], identify the latest thread that discusses [BLOCKER-KEYWORD]. Return the thread date, sender, exact blocker wording, and current status. Do not infer a resolution if the thread does not state one. Use @Google Drive to identify the corresponding [PROJECT-PHASE] requirement in [SPECIFICATION-NAME].
 ```
 
 ## Delivery

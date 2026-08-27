@@ -6,8 +6,10 @@ Show how a natural-language request creates a project tracker, then verify the s
 
 ## Prompt
 
+Replace the bracketed placeholder with the project you want to track.
+
 ```text
-Create a project tracking template for a software launch with columns for Task, Owner, Status, Deadline, and Days Until Deadline. Add a Status dropdown with Pending, In Progress, and Blocked. Add a formula that calculates the number of days from today to the Deadline. Use fictional sample tasks and show the formula range.
+Create a project tracking template for [PROJECT-TYPE] with columns for Task, Owner, Status, Deadline, and Days Until Deadline. Add a Status dropdown with Pending, In Progress, and Blocked. Add a formula that calculates the number of days from today to the Deadline. Use fictional sample tasks and show the formula range.
 ```
 
 ## Delivery

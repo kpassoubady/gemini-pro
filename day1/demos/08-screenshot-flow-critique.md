@@ -6,8 +6,10 @@ Demonstrate the difference between visible interface evidence and an interpretat
 
 ## Prompt
 
+Replace the bracketed placeholders with details from your screenshot and review goal.
+
 ```text
-Act as a UI/UX reviewer. First list only the visible controls, labels, arrows, and states in this screenshot. Then map the user flow step by step and identify two possible friction points. For each friction point, cite the visible evidence and state what would require user research to confirm. Mark unreadable text as unknown.
+Act as a UI/UX reviewer. First list only the visible controls, labels, arrows, and states in [SCREENSHOT-OR-FLOW-NAME]. Then map the user flow step by step and identify [NUMBER-OF-FRICTION-POINTS] possible friction points. For each friction point, cite the visible evidence and state what would require user research to confirm. Mark unreadable text as unknown.
 ```
 
 ## Delivery

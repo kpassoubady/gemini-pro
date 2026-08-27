@@ -6,8 +6,10 @@ Demonstrate that exporting a table to Sheets is a handoff step, not proof that t
 
 ## Prompt
 
+Replace the bracketed placeholder with the table you want to review.
+
 ```text
-Review the extracted table for duplicate claims, missing page references, inconsistent units, and values whose denominator is unclear. Return a review column with PASS, CHECK, or UNRESOLVED and explain each non-PASS row without changing the original claim.
+Review [EXTRACTED-TABLE-NAME] for duplicate claims, missing page references, inconsistent units, and values whose denominator is unclear. Return a review column with PASS, CHECK, or UNRESOLVED and explain each non-PASS row without changing the original claim.
 ```
 
 ## Delivery
