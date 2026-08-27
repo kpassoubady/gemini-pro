@@ -125,3 +125,5 @@ Students will learn by doing. By the end of this 6-hour session, participants wi
 
 - [gemini-pro-companion](https://github.com/kpassoubady/gemini-pro-companion) — student hands-on lab companion.
 - [gemini-pro-setup](https://github.com/kpassoubady/gemini-pro-setup) — pre-class environment verification.
+- [gemini-pro-book](https://github.com/kpassoubady/gemini-pro-book) — internal authoring repository for the book product.
+- [gemini-pro-book-companion](https://github.com/kpassoubady/gemini-pro-book-companion) — exercises and code for book purchasers.
