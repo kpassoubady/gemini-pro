@@ -47,7 +47,9 @@
       "Write(/tmp/**)",
       "Edit(/tmp/**)",
       "Read(//Users/kangs/.claude/**)",
-      "Read(//Users/kangs/.copilot/**)"
+      "Read(//Users/kangs/.copilot/**)",
+      "Bash(./scripts/build-slides.sh /Users/kangs/code/github/gemini-pro/day1/slides)",
+      "Bash(wait)"
     ],
     "deny": [
       "Bash(rm*)",
@@ -58,8 +60,7 @@
       "Bash(wipe*)",
       "Bash(mkfs*)",
       "Bash(diskutil eraseDisk*)",
-      "Bash(format*)",
-      "Bash(:(){ :|:& };:)"
+      "Bash(format*)"
     ],
     "additionalDirectories": [
       "/tmp",

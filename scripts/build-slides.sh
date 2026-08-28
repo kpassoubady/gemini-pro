@@ -1,8 +1,8 @@
 #!/bin/bash
 # Build Marp slide decks to PDF
-# Usage: ./scripts/build-slides.sh [-p <path>]
+# Usage: ./scripts/build-slides.sh [-p <path>] [path]
 #   -p <path>   Build all slide decks found recursively under <path>
-#               (defaults to <repo>/slides)
+#               (defaults to <repo>/slides; a trailing positional path also works)
 
 set -e
 
@@ -13,9 +13,14 @@ SLIDE_DIR="$REPO_ROOT/slides"
 while getopts "p:" opt; do
   case "$opt" in
     p) SLIDE_DIR="$OPTARG" ;;
-    *) echo "Usage: $0 [-p <path>]" >&2; exit 1 ;;
+    *) echo "Usage: $0 [-p <path>] [path]" >&2; exit 1 ;;
   esac
 done
+shift $((OPTIND - 1))
+
+if [ -n "$1" ]; then
+  SLIDE_DIR="$1"
+fi
 
 if [ ! -d "$SLIDE_DIR" ]; then
   echo "No slides directory found at $SLIDE_DIR"
