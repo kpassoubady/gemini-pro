@@ -13,9 +13,9 @@ footer: 'Day 2 - Session 18: Gemini Notebook Capstone and Workflow Integration'
 # Gemini Pro
 ## Gemini Notebook: Capstone and Workflow Integration
 
-**Day 2 - Session 18**
+Day 2 - Session 18
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
 ---
 
@@ -34,7 +34,7 @@ footer: 'Day 2 - Session 18: Gemini Notebook Capstone and Workflow Integration'
 # The Capstone Contract
 ## Show controlled evidence, not only polished output
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
 ---
 
@@ -91,7 +91,7 @@ The judgment correction is required evidence of human review.
 
 # End-to-End Notebook Workflow
 
-<img src="../diagrams/notebook-end-to-end-workflow.svg" alt="End-to-end workflow from defining and verifying evidence through notes, study aids, multimedia review, sharing, maintenance, and archive" style="display:block; margin:0 auto; max-height:420px;" />
+<img src="../diagrams/notebook-end-to-end-workflow.svg" alt="End-to-end workflow from defining and verifying evidence through notes, study aids, multimedia review, sharing, maintenance, and archive" style="display:block; margin:0 auto; max-height:420px;"  style="max-height:80px" />
 
 ---
 
@@ -100,7 +100,7 @@ The judgment correction is required evidence of human review.
 # Integrate the Workflow
 ## Move evidence between products without losing control
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
 ---
 
@@ -132,7 +132,7 @@ A synchronized notebook does not make every surface use the same evidence.
 
 # Workspace Handoffs Create Copies
 
-<img src="../diagrams/workspace-handoff-boundaries.svg" alt="Gemini Notebook evidence handed to Docs, Sheets, Slides, and Vids with new permission, ownership, and freshness controls" style="display:block; margin:0 auto; max-height:420px;" />
+<img src="../diagrams/workspace-handoff-boundaries.svg" alt="Gemini Notebook evidence handed to Docs, Sheets, Slides, and Vids with new permission, ownership, and freshness controls" style="display:block; margin:0 auto; max-height:420px;"  style="max-height:80px" />
 
 ---
 
@@ -167,7 +167,7 @@ Generation effort should not displace evidence review.
 # Operate the Notebook
 ## Access and maintenance determine whether the artifact stays trustworthy
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
 ---
 
@@ -211,7 +211,7 @@ A source update can make an approved artifact stale.
 
 # Notebook Maintenance Loop
 
-<img src="../diagrams/notebook-maintenance-loop.svg" alt="Maintenance loop for reviewing sources, reverifying outputs after changes, updating audiences, and archiving notebooks no longer needed" style="display:block; margin:0 auto; max-height:420px;" />
+<img src="../diagrams/notebook-maintenance-loop.svg" alt="Maintenance loop for reviewing sources, reverifying outputs after changes, updating audiences, and archiving notebooks no longer needed" style="display:block; margin:0 auto; max-height:420px;"  style="max-height:80px" />
 
 ---
 
@@ -234,7 +234,7 @@ It cannot prove that answers are accurate. Sample citations and review defects.
 # Build and Review
 ## Complete the workflow with evidence at every stage
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
 ---
 
@@ -341,4 +341,4 @@ Share evidence of judgment, not a tour of every feature.
 
 **Keep the sources traceable, the judgments visible, and the owner accountable.**
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />

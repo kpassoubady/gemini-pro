@@ -29,9 +29,9 @@ footer: 'Day 2 - Session 10: Enterprise Multimedia Workflows'
 # Gemini Pro
 ## Enterprise Multimedia Workflows
 
-**Day 2 - Session 10**
+Day 2 - Session 10
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
 ---
 
@@ -50,7 +50,7 @@ footer: 'Day 2 - Session 10: Enterprise Multimedia Workflows'
 # One Ecosystem, Several Surfaces
 ## Choose the product that matches the workflow
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
 ---
 
@@ -80,7 +80,7 @@ A “Pro” model or plan does not make every feature available everywhere.
 
 # Choose the Right Surface
 
-<img src="../diagrams/media-surface-selection.svg" alt="Decision tree for choosing Gemini Apps, Google Vids, or Gemini Enterprise based on the media workflow" style="display:block; margin:0 auto; max-height:420px;" />
+<img src="../diagrams/media-surface-selection.svg" alt="Decision tree for choosing Gemini Apps, Google Vids, or Gemini Enterprise based on the media workflow" style="display:block; margin:0 auto; max-height:420px;"  style="max-height:80px" />
 
 ---
 
@@ -114,7 +114,7 @@ Start with:
 # Analyze Existing Media
 ## Extract evidence before generating new assets
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
 ---
 
@@ -189,7 +189,7 @@ Return a review table for a human approver.
 # Create and Edit Images
 ## Move from a vague request to a reviewable visual brief
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
 ---
 
@@ -249,7 +249,7 @@ Before external use, verify:
 # Advanced Visual Storytelling
 ## Keep characters, worlds, and themes stable across many assets
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
 ---
 
@@ -353,7 +353,7 @@ Record accepted truths early so reviewers compare evidence, not memory.
 
 # Story Continuity Loop
 
-<img src="../diagrams/story-continuity-loop.svg" alt="Loop from story bible and anchor keyframe through scene generation, continuity review, drift repair, and approval" style="display:block; margin:0 auto; max-height:420px;" />
+<img src="../diagrams/story-continuity-loop.svg" alt="Loop from story bible and anchor keyframe through scene generation, continuity review, drift repair, and approval" style="display:block; margin:0 auto; max-height:420px;"  style="max-height:80px" />
 
 ---
 
@@ -377,7 +377,7 @@ Run `day2/demos/01-visual-story-continuity.md`.
 # From Story Frames to Motion
 ## Animate approved keyframes instead of rediscovering the story
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
 ---
 
@@ -456,7 +456,7 @@ Run `day2/demos/02-storyboard-video-handoff.md`.
 # Audio, Speech, and Music
 ## Distinguish knowledge synthesis from creative production
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
 ---
 
@@ -531,7 +531,7 @@ Review lyrics, pronunciation, cultural context, rights, and brand fit.
 # Generate and Produce Video
 ## Match quick ideation, collaboration, or API scale
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
 ---
 
@@ -590,7 +590,7 @@ Specify:
 # Enterprise Governance
 ## Keep control across input, generation, review, and publication
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
 ---
 
@@ -645,7 +645,7 @@ They can help establish origin or editing history, but they do not prove:
 
 # Media Review Gates
 
-<img src="../diagrams/media-review-gates.svg" alt="Enterprise media draft passing factual, brand, rights, accessibility, and disclosure gates before publication" style="display:block; margin:0 auto; max-height:420px;" />
+<img src="../diagrams/media-review-gates.svg" alt="Enterprise media draft passing factual, brand, rights, accessibility, and disclosure gates before publication" style="display:block; margin:0 auto; max-height:420px;"  style="max-height:80px" />
 
 ---
 
@@ -737,6 +737,6 @@ Open `day2/breakout-visual-storyboard/` in the companion repo.
 
 # Questions?
 
-**Next: build a source-grounded presentation workflow**
+Next: build a source-grounded presentation workflow
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />

@@ -13,9 +13,9 @@ footer: 'Day 2 - Session 17: Gemini Notebook Multimedia Generation'
 # Gemini Pro
 ## Gemini Notebook: Multimedia Generation
 
-**Day 2 - Session 17**
+Day 2 - Session 17
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
 ---
 
@@ -34,7 +34,7 @@ footer: 'Day 2 - Session 17: Gemini Notebook Multimedia Generation'
 # Choose the Artifact
 ## Start with the communication need, not the most advanced format
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
 ---
 
@@ -67,7 +67,7 @@ Review the selected sources and custom prompt before reviewing polish.
 
 # Match Format to the Need
 
-<img src="../diagrams/notebook-artifact-selection.svg" alt="Decision tree for selecting an Audio Overview, Infographic, Explainer, Cinematic, or Short Video Overview" style="display:block; margin:0 auto; max-height:420px;" />
+<img src="../diagrams/notebook-artifact-selection.svg" alt="Decision tree for selecting an Audio Overview, Infographic, Explainer, Cinematic, or Short Video Overview" style="display:block; margin:0 auto; max-height:420px;"  style="max-height:80px" />
 
 ---
 
@@ -90,7 +90,7 @@ Use Short Video for an approximately 60-second recap.
 # Audio Overviews
 ## Guide the format, focus, and evidence boundary
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
 ---
 
@@ -174,7 +174,7 @@ Avoid “tell me more,” which creates an unclear verification target.
 
 # Interactive Mode Lifecycle
 
-<img src="../diagrams/audio-interactive-mode.svg" alt="Workflow for creating an interactive Audio Overview, joining the hosts, asking a bounded question, and verifying the answer" style="display:block; margin:0 auto; max-height:420px;" />
+<img src="../diagrams/audio-interactive-mode.svg" alt="Workflow for creating an interactive Audio Overview, joining the hosts, asking a bounded question, and verifying the answer" style="display:block; margin:0 auto; max-height:420px;"  style="max-height:80px" />
 
 ---
 
@@ -207,7 +207,7 @@ Run `day2/demos/10-interactive-audio-overview.md`.
 # Visual Overviews
 ## Make dates and relationships visible without changing meaning
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
 ---
 
@@ -294,13 +294,13 @@ Run `day2/demos/09-multimedia-artifact-selection.md`.
 # Review and Govern
 ## Polished media remains a draft until every gate passes
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
 ---
 
 # Multimedia Review Gates
 
-<img src="../diagrams/multimedia-artifact-review.svg" alt="Review loop for checking generated multimedia facts, media quality, accessibility, permissions, and destination controls" style="display:block; margin:0 auto; max-height:420px;" />
+<img src="../diagrams/multimedia-artifact-review.svg" alt="Review loop for checking generated multimedia facts, media quality, accessibility, permissions, and destination controls" style="display:block; margin:0 auto; max-height:420px;"  style="max-height:80px" />
 
 ---
 
@@ -391,6 +391,6 @@ Open `day2/breakout-audio-producer/` in the companion repo.
 
 # Questions?
 
-**Next: integrate sourcing, synthesis, and multimedia in the capstone**
+Next: integrate sourcing, synthesis, and multimedia in the capstone
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />

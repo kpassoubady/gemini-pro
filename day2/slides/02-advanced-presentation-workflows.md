@@ -13,9 +13,9 @@ footer: 'Day 2 - Session 11: Advanced Presentation Workflows'
 # Gemini Pro
 ## Advanced Presentation Workflows
 
-**Day 2 - Session 11**
+Day 2 - Session 11
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
 ---
 
@@ -34,7 +34,7 @@ footer: 'Day 2 - Session 11: Advanced Presentation Workflows'
 # From Prompt to Presentation
 ## Build the narrative, inspect the evidence, and retain editability
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
 ---
 
@@ -86,7 +86,7 @@ Both can produce slides; the workflow and controls differ.
 
 # Choose the Creation Surface
 
-<img src="../diagrams/presentation-surface-choice.svg" alt="Comparison of rapid presentation drafting in Gemini Canvas and governed production in Gemini for Google Slides" style="display:block; margin:0 auto; max-height:420px;" />
+<img src="../diagrams/presentation-surface-choice.svg" alt="Comparison of rapid presentation drafting in Gemini Canvas and governed production in Gemini for Google Slides" style="display:block; margin:0 auto; max-height:420px;"  style="max-height:80px" />
 
 ---
 
@@ -130,7 +130,7 @@ In a blank presentation, Gemini can:
 # Grounded Full-Deck Generation
 ## Control sources and structure before polished output appears
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
 ---
 
@@ -222,7 +222,7 @@ Edit, add, delete, or reorder steps before approval.
 
 # Presentation Plan Review
 
-<img src="../diagrams/presentation-plan-review.svg" alt="Workflow from presentation brief and approved sources through plan review, generation, and verification" style="display:block; margin:0 auto; max-height:420px;" />
+<img src="../diagrams/presentation-plan-review.svg" alt="Workflow from presentation brief and approved sources through plan review, generation, and verification" style="display:block; margin:0 auto; max-height:420px;"  style="max-height:80px" />
 
 ---
 
@@ -257,7 +257,7 @@ Run `day2/demos/03-source-grounded-presentation.md`.
 # Refine Without Regenerating Everything
 ## Repair the weakest slide with a bounded instruction
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
 ---
 
@@ -290,7 +290,7 @@ Avoid “make it better”; state what better means.
 
 # Bounded Slide Repair
 
-<img src="../diagrams/bounded-slide-repair.svg" alt="Feedback loop for naming one slide defect, generating a bounded preview, checking regressions, and replacing only after approval" style="display:block; margin:0 auto; max-height:420px;" />
+<img src="../diagrams/bounded-slide-repair.svg" alt="Feedback loop for naming one slide defect, generating a bounded preview, checking regressions, and replacing only after approval" style="display:block; margin:0 auto; max-height:420px;"  style="max-height:80px" />
 
 ---
 
@@ -360,7 +360,7 @@ Run `day2/demos/04-editable-slide-repair.md`.
 # Advanced Visual Creation
 ## Choose the output type before choosing the prompt
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
 ---
 
@@ -447,7 +447,7 @@ Flattened text inside images needs extra scrutiny.
 # Enterprise Presentation Workflow
 ## Treat generation as drafting, not publication
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
 ---
 
@@ -576,6 +576,6 @@ Open `day2/breakout-presentation-architect/` in the companion repo.
 
 # Questions?
 
-**Next: build a source-grounded Gemini Notebook workspace**
+Next: build a source-grounded Gemini Notebook workspace
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />

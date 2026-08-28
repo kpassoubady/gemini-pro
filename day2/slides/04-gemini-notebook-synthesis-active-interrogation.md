@@ -13,9 +13,9 @@ footer: 'Day 2 - Session 15: Gemini Notebook Synthesis and Active Interrogation'
 # Gemini Pro
 ## Gemini Notebook: Synthesis and Active Interrogation
 
-**Day 2 - Session 15**
+Day 2 - Session 15
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
 ---
 
@@ -34,7 +34,7 @@ footer: 'Day 2 - Session 15: Gemini Notebook Synthesis and Active Interrogation'
 # Interrogate the Sources
 ## Compare before compressing evidence into a conclusion
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
 ---
 
@@ -81,7 +81,7 @@ Add one owner question for every unresolved row.
 
 # Contradiction-First Synthesis
 
-<img src="../diagrams/contradiction-first-synthesis.svg" alt="Cross-source synthesis workflow that preserves supported, partial, conflicting, and unresolved evidence" style="display:block; margin:0 auto; max-height:420px;" />
+<img src="../diagrams/contradiction-first-synthesis.svg" alt="Cross-source synthesis workflow that preserves supported, partial, conflicting, and unresolved evidence" style="display:block; margin:0 auto; max-height:420px;"  style="max-height:80px" />
 
 ---
 
@@ -155,7 +155,7 @@ Run `day2/demos/07-contradiction-first-synthesis.md`.
 # Verify Before Saving
 ## A real citation can still support the wrong conclusion
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
 ---
 
@@ -188,7 +188,7 @@ Narrow a partial claim instead of upgrading weak evidence.
 
 # Claim-Evidence Review
 
-<img src="../diagrams/claim-evidence-review.svg" alt="Citation review decision tree checking passage support and source authority before a claim is verified" style="display:block; margin:0 auto; max-height:420px;" />
+<img src="../diagrams/claim-evidence-review.svg" alt="Citation review decision tree checking passage support and source authority before a claim is verified" style="display:block; margin:0 auto; max-height:420px;"  style="max-height:80px" />
 
 ---
 
@@ -220,7 +220,7 @@ Label conclusions so readers can challenge the reasoning without disputing the s
 # Build a Verified Note Layer
 ## Preserve useful synthesis without promoting errors to sources
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
 ---
 
@@ -268,7 +268,7 @@ Select verified notes only. The transformation inherits their errors.
 # Generate Study Aids
 ## Treat each artifact as a new claim surface
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
 ---
 
@@ -315,7 +315,7 @@ Rewrite or remove a plausible question that the sources cannot answer.
 
 # Verified Notes to Study Aids
 
-<img src="../diagrams/verified-notes-study-aids.svg" alt="Pipeline from a grounded answer through verified notes to a reviewed study guide, quiz, and approved learning aid" style="display:block; margin:0 auto; max-height:420px;" />
+<img src="../diagrams/verified-notes-study-aids.svg" alt="Pipeline from a grounded answer through verified notes to a reviewed study guide, quiz, and approved learning aid" style="display:block; margin:0 auto; max-height:420px;"  style="max-height:80px" />
 
 ---
 
@@ -392,6 +392,6 @@ Open `day2/breakout-knowledge-synthesizer/` in the companion repo.
 
 # Questions?
 
-**Next: turn verified research into audio and visual overviews**
+Next: turn verified research into audio and visual overviews
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />

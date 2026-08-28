@@ -13,9 +13,9 @@ footer: 'Day 2 - Session 13: Gemini Notebook Foundation and Data Sourcing'
 # Gemini Pro
 ## Gemini Notebook: Foundation and Data Sourcing
 
-**Day 2 - Session 13**
+Day 2 - Session 13
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
 ---
 
@@ -34,7 +34,7 @@ footer: 'Day 2 - Session 13: Gemini Notebook Foundation and Data Sourcing'
 # One Notebook, Two Surfaces
 ## Know where answers can get their evidence
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
 ---
 
@@ -65,7 +65,7 @@ Always identify the mode and label evidence added outside the notebook.
 
 # Compare the Grounding Surfaces
 
-<img src="../diagrams/notebook-grounding-surfaces.svg" alt="One notebook used in standard source-grounded chat, tier-dependent agentic chat, and Gemini Apps with outside tools" style="display:block; margin:0 auto; max-height:420px;" />
+<img src="../diagrams/notebook-grounding-surfaces.svg" alt="One notebook used in standard source-grounded chat, tier-dependent agentic chat, and Gemini Apps with outside tools" style="display:block; margin:0 auto; max-height:420px;"  style="max-height:80px" />
 
 ---
 
@@ -86,7 +86,7 @@ A notebook is a persistent research workspace, not a single chat upload.
 # Build the Source Set
 ## Import broadly, then inspect and select deliberately
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
 ---
 
@@ -117,7 +117,7 @@ Successful import does not establish source quality.
 
 # Source Ingestion Workflow
 
-<img src="../diagrams/notebook-source-ingestion.svg" alt="Source ingestion workflow covering permission, import inspection, authority classification, source selection, and citation verification" style="display:block; margin:0 auto; max-height:420px;" />
+<img src="../diagrams/notebook-source-ingestion.svg" alt="Source ingestion workflow covering permission, import inspection, authority classification, source selection, and citation verification" style="display:block; margin:0 auto; max-height:420px;"  style="max-height:80px" />
 
 ---
 
@@ -149,7 +149,7 @@ Exported files use separate content and permission lifecycles.
 
 # Source Synchronization Lifecycle
 
-<img src="../diagrams/notebook-source-sync.svg" alt="Google Drive source synchronization into Gemini Notebook followed by querying and export with separate permissions" style="display:block; margin:0 auto; max-height:420px;" />
+<img src="../diagrams/notebook-source-sync.svg" alt="Google Drive source synchronization into Gemini Notebook followed by querying and export with separate permissions" style="display:block; margin:0 auto; max-height:420px;"  style="max-height:80px" />
 
 ---
 
@@ -205,7 +205,7 @@ Run `day2/demos/05-controlled-source-boundary.md`.
 # Select Evidence for the Question
 ## Source count matters less than source fitness
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
 ---
 
@@ -280,7 +280,7 @@ Run `day2/demos/06-cross-surface-grounding.md`.
 # Enterprise Controls
 ## Match source access, sharing, and limits to the account
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
 ---
 
@@ -374,6 +374,6 @@ Open `day2/breakout-workspace-builder/` in the companion repo.
 
 # Questions?
 
-**Next: synthesize arguments and create source-grounded study aids**
+Next: synthesize arguments and create source-grounded study aids
 
-<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
+<img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
