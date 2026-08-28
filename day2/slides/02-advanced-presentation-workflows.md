@@ -4,7 +4,7 @@ theme: default
 style: '@import url("https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/blue-theme.css");'
 paginate: true
 header: 'Gemini Pro'
-footer: 'Day 1 - Optional Session 8: Advanced Presentation Workflows'
+footer: 'Day 2 - Session 11: Advanced Presentation Workflows'
 ---
 
 <!-- _class: lead -->
@@ -13,7 +13,7 @@ footer: 'Day 1 - Optional Session 8: Advanced Presentation Workflows'
 # Gemini Pro
 ## Advanced Presentation Workflows
 
-**Day 1 - Optional Session 8**
+**Day 2 - Session 11**
 
 <img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
 
@@ -25,7 +25,7 @@ footer: 'Day 1 - Optional Session 8: Advanced Presentation Workflows'
 2. Generate grounded, fully editable presentations
 3. Match style and refine one slide at a time
 4. Create and govern advanced visual assets
-5. Demo: plan a deck, then repair one slide
+5. Demos and Breakout Lab 2.2: Presentation Architect
 
 ---
 
@@ -44,7 +44,7 @@ footer: 'Day 1 - Optional Session 8: Advanced Presentation Workflows'
 - A verified project tracker in Google Sheets
 - A related announcement in Google Docs
 
-**This optional session adds:**
+**This session adds:**
 - A source-grounded presentation for a defined audience
 - Plan review, visual refinement, and approval gates
 
@@ -81,6 +81,12 @@ Before asking Gemini to create slides, define:
 | **Gemini in Slides** | Grounded generation, editable elements, collaboration, and review |
 
 Both can produce slides; the workflow and controls differ.
+
+---
+
+# Choose the Creation Surface
+
+<img src="../diagrams/presentation-surface-choice.svg" alt="Comparison of rapid presentation drafting in Gemini Canvas and governed production in Gemini for Google Slides" style="display:block; margin:0 auto; max-height:420px;" />
 
 ---
 
@@ -214,6 +220,12 @@ Edit, add, delete, or reorder steps before approval.
 
 ---
 
+# Presentation Plan Review
+
+<img src="../diagrams/presentation-plan-review.svg" alt="Workflow from presentation brief and approved sources through plan review, generation, and verification" style="display:block; margin:0 auto; max-height:420px;" />
+
+---
+
 # Plan Review Is the Control Point
 
 Check that the plan:
@@ -230,7 +242,7 @@ Check that the plan:
 
 # Demo: Source-Grounded Presentation Plan
 
-Run `day1/demos/15-source-grounded-presentation.md`.
+Run `day2/demos/03-source-grounded-presentation.md`.
 
 - Sources: Separate content evidence from the style reference.
 - Plan: Inspect five slide purposes before generation.
@@ -273,6 +285,12 @@ Name five things:
 5. The acceptance check
 
 Avoid “make it better”; state what better means.
+
+---
+
+# Bounded Slide Repair
+
+<img src="../diagrams/bounded-slide-repair.svg" alt="Feedback loop for naming one slide defect, generating a bounded preview, checking regressions, and replacing only after approval" style="display:block; margin:0 auto; max-height:420px;" />
 
 ---
 
@@ -327,7 +345,7 @@ After each repair, check:
 
 # Demo: Editable Slide Repair
 
-Run `day1/demos/16-editable-slide-repair.md`.
+Run `day2/demos/04-editable-slide-repair.md`.
 
 - Scope: Repair one overloaded slide, not the whole deck.
 - Evidence: Preserve verified blockers, owners, and dates.
@@ -521,6 +539,18 @@ Verify the signed-in environment before class.
 
 ---
 
+# Breakout Lab 2.2: The Presentation Architect
+
+Open `day2/breakout-presentation-architect/` in the companion repo.
+**Goal:** Approve a grounded five-slide plan and repair one editable slide without changing verified facts.
+
+1. Inspect content sources separately from the style reference.
+2. Revise the plan until each slide has one purpose.
+3. Preview and verify a bounded blocker-slide repair.
+> Reject every unsupported metric, deadline, outcome, or approval.
+
+---
+
 # Official References
 
 - [Generate presentations with Gemini in Google Slides](https://support.google.com/docs/answer/17111393)
@@ -546,6 +576,6 @@ Verify the signed-in environment before class.
 
 # Questions?
 
-**What presentation workflow will you redesign first?**
+**Next: build a source-grounded Gemini Notebook workspace**
 
 <img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />

@@ -1,0 +1,19 @@
+%%{init: {"flowchart": {"wrappingWidth": 420}, "themeVariables": {"fontSize": "20px", "fontFamily": "Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif", "primaryColor": "#e3f2fd", "primaryTextColor": "#1e293b", "primaryBorderColor": "#1a73e8", "lineColor": "#1a73e8", "secondaryColor": "#fff3e0", "tertiaryColor": "#e8f5e9", "background": "#ffffff", "edgeLabelBackground": "#ffffff", "clusterBkg": "#f5f7fa", "clusterBorder": "#e2e8f0", "titleColor": "#1a73e8"}}}%%
+flowchart LR
+    NOTEBOOK["<b>Shared notebook</b><br/>sources and instructions"] --> STANDARD["<b>Notebook standard chat</b><br/>selected sources"]
+    NOTEBOOK --> AGENTIC["<b>Notebook agentic chat</b><br/>eligible web, code, and file tools"]
+    NOTEBOOK --> GEMINI["<b>Gemini Apps</b><br/>sources plus tools and web"]
+    QUESTION["<b>Same question</b>"] --> STANDARD
+    QUESTION --> AGENTIC
+    QUESTION --> GEMINI
+    STANDARD --> CONTROLLED["<b>Controlled answer</b><br/>source-grounded claims"]
+    AGENTIC --> EXPANDED["<b>Expanded answer</b><br/>label outside evidence"]
+    GEMINI --> EXPANDED
+
+    style NOTEBOOK fill:#f3e5f5,stroke:#7b1fa2
+    style QUESTION fill:#e3f2fd,stroke:#1a73e8
+    style STANDARD fill:#1a237e,stroke:#1a237e,color:#ffffff
+    style AGENTIC fill:#fff3e0,stroke:#e65100
+    style GEMINI fill:#fff3e0,stroke:#e65100
+    style CONTROLLED fill:#e8f5e9,stroke:#2e7d32
+    style EXPANDED fill:#e8f5e9,stroke:#2e7d32

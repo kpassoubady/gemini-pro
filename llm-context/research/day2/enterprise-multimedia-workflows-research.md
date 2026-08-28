@@ -1,12 +1,12 @@
-# Optional Session 7 Research: Enterprise Multimedia Workflows
+# Session 10 Research: Enterprise Multimedia Workflows
 
 **Research date:** 2026-08-27
 **Course:** Gemini Pro
-**Session:** Day 1, optional Session 7 — Enterprise Multimedia Workflows
+**Session:** Day 2, Session 10 — Enterprise Multimedia Workflows
 
 ## Scope
 
-This optional session extends Session 4 from media analysis into enterprise media creation. It covers images and screenshots, audio and speech, music, and video. The instructor should distinguish three product surfaces instead of presenting every capability as a feature of one “Gemini Pro” model:
+This Day 2 session extends Day 1 Session 4 from media analysis into enterprise media creation. It covers images and screenshots, audio and speech, music, and video. The instructor should distinguish three product surfaces instead of presenting every capability as a feature of one “Gemini Pro” model:
 
 1. **Gemini Apps:** Conversational analysis and creation for individual knowledge workers.
 2. **Google Vids:** Collaborative workplace video planning, production, editing, and sharing.
@@ -29,7 +29,7 @@ Generated timestamps, transcriptions, OCR, identities, sentiment, and visual det
 
 ## Image creation and editing
 
-Gemini Apps supports image generation and conversational editing with the Gemini Image family, currently branded Nano Banana. Google Cloud also provides Gemini image generation and Imagen capabilities through its enterprise platform. Enterprise use cases include concept boards, internal campaign mockups, localized variants, product-background experiments, diagrams, and storyboards.
+Gemini Apps supports image generation and conversational editing with Nano Banana 2 when Gemini is set to Flash or Pro; paid subscribers can also regenerate with Nano Banana Pro. Nano Banana 2 accepts multiple reference images, making approved anchors practical for continuity workflows. Google Cloud also provides Gemini image generation and Imagen capabilities through its enterprise platform. Enterprise use cases include concept boards, internal campaign mockups, localized variants, product-background experiments, diagrams, and storyboards.
 
 A useful image brief specifies purpose, audience, subject, composition, visual style, aspect ratio, required text, exclusions, and review criteria. Teams should verify product accuracy, text rendering, trademarks, likeness rights, accessibility, and brand compliance before publication.
 
@@ -47,7 +47,7 @@ Music prompts can specify business purpose, duration, genre, instrumentation, te
 
 ## Video generation and production
 
-Gemini Apps can generate video for qualifying Workspace licenses. Google Vids is the stronger surface for collaborative workplace production: it can create a storyboard from a prompt and Drive sources, suggest scenes and media, generate scripts and voiceovers, create or modify clips, and combine stock or uploaded assets. Google Cloud offers Veo and other media models for API-based workflows.
+Gemini Apps can generate video for qualifying Workspace licenses. Google Vids is the stronger surface for collaborative workplace production: Storyboard can draft an outline, scenes, media, script, and voiceover from a prompt and Drive sources. Its AI video workflow can also use reference images or avatars, animate a still image, edit an uploaded clip, and extend a generated clip. Google Cloud offers Veo and other media models for API-based workflows.
 
 An enterprise video brief should identify audience, goal, duration, aspect ratio, subject, setting, action, shot and camera behavior, lighting, dialogue or sound, brand constraints, and prohibited elements. Generated clips should be treated as draft assets. Review continuity, identity and product fidelity, captions, factual claims, rights, safety, and final publishing approval.
 
@@ -63,7 +63,7 @@ A production media workflow should include:
 2. The least-sensitive data necessary for the task.
 3. A reusable creative brief and approved negative constraints.
 4. Human review for facts, brand, accessibility, safety, and rights.
-5. Provenance and disclosure checks, including SynthID or Content Credentials where available.
+5. Provenance and disclosure checks, including SynthID and Content Credentials where available; a missing Google SynthID signal does not prove that an asset is human-made or free of third-party AI editing.
 6. Retention, approval, publication, and incident-response ownership.
 
 ## Recommended classroom framing

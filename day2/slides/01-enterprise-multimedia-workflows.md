@@ -4,7 +4,7 @@ theme: default
 style: '@import url("https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/blue-theme.css");'
 paginate: true
 header: 'Gemini Pro'
-footer: 'Day 1 - Optional Session 7: Enterprise Multimedia Workflows'
+footer: 'Day 2 - Session 10: Enterprise Multimedia Workflows'
 ---
 
 <style>
@@ -29,7 +29,7 @@ footer: 'Day 1 - Optional Session 7: Enterprise Multimedia Workflows'
 # Gemini Pro
 ## Enterprise Multimedia Workflows
 
-**Day 1 - Optional Session 7**
+**Day 2 - Session 10**
 
 <img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />
 
@@ -41,7 +41,7 @@ footer: 'Day 1 - Optional Session 7: Enterprise Multimedia Workflows'
 2. Generate, edit, and sequence consistent visual stories
 3. Create Audio Overviews, voiceovers, and music
 4. Produce video with Gemini Apps and Google Vids
-5. Govern enterprise media from prompt to publication
+5. Govern media and launch Breakout Lab 2.1
 
 ---
 
@@ -60,7 +60,7 @@ footer: 'Day 1 - Optional Session 7: Enterprise Multimedia Workflows'
 - Inspect existing videos, screenshots, and flowcharts.
 - Verify timestamps and visible evidence.
 
-**This optional session adds creation:**
+**This session adds creation:**
 - Generate images, speech, music, and video.
 - Add enterprise approval, provenance, and publishing controls.
 
@@ -75,6 +75,12 @@ footer: 'Day 1 - Optional Session 7: Enterprise Multimedia Workflows'
 | **Enterprise Agent Platform** | Governed APIs, applications, and scaled pipelines |
 
 A “Pro” model or plan does not make every feature available everywhere.
+
+---
+
+# Choose the Right Surface
+
+<img src="../diagrams/media-surface-selection.svg" alt="Decision tree for choosing Gemini Apps, Google Vids, or Gemini Enterprise based on the media workflow" style="display:block; margin:0 auto; max-height:420px;" />
 
 ---
 
@@ -189,15 +195,13 @@ Return a review table for a human approver.
 
 # Image Capabilities
 
-Current Gemini surfaces can support:
+Nano Banana 2 in Gemini Apps supports:
 
-- Text-to-image generation
-- Conversational image editing
-- Background, object, and composition changes
-- Variants for format, audience, or channel
+- Image generation and conversational editing
+- Multiple reference images for a new composition
+- Variants for different formats and audiences
 - Product mockups, diagrams, and storyboards
-
-Availability and model labels depend on account and surface.
+Paid subscribers can also regenerate with Nano Banana Pro. Availability depends on the account and surface.
 
 ---
 
@@ -347,11 +351,17 @@ Record accepted truths early so reviewers compare evidence, not memory.
 
 ---
 
+# Story Continuity Loop
+
+<img src="../diagrams/story-continuity-loop.svg" alt="Loop from story bible and anchor keyframe through scene generation, continuity review, drift repair, and approval" style="display:block; margin:0 auto; max-height:420px;" />
+
+---
+
 <!-- _class: demo -->
 
 # Demo: Character Continuity Under Pressure
 
-Run `day1/demos/13-visual-story-continuity.md`.
+Run `day2/demos/01-visual-story-continuity.md`.
 
 - Baseline: Generate a second frame from a scene-only prompt.
 - Drift: Name the identity, wardrobe, prop, or style changes.
@@ -430,7 +440,7 @@ Review the assembled timeline; polished clips can still create a confusing story
 
 # Demo: Storyboard-to-Video Handoff
 
-Run `day1/demos/14-storyboard-video-handoff.md`.
+Run `day2/demos/02-storyboard-video-handoff.md`.
 
 - Inputs: Use two approved adjacent keyframes.
 - Motion: Animate only the action between the frames.
@@ -633,6 +643,12 @@ They can help establish origin or editing history, but they do not prove:
 
 ---
 
+# Media Review Gates
+
+<img src="../diagrams/media-review-gates.svg" alt="Enterprise media draft passing factual, brand, rights, accessibility, and disclosure gates before publication" style="display:block; margin:0 auto; max-height:420px;" />
+
+---
+
 # Applied Activity: Choose a Surface
 
 Your team needs an internal two-minute launch explainer grounded in an approved policy and slide deck.
@@ -674,6 +690,18 @@ Before delivery or deployment, verify:
 
 ---
 
+# Breakout Lab 2.1: The Visual Storyboard
+
+Open `day2/breakout-visual-storyboard/` in the companion repo.
+**Goal:** Create an anchor keyframe, generate a second frame, and document visible continuity drift.
+
+1. Complete the story bible and approve one anchor.
+2. Generate Frame 2 from a bounded scene delta.
+3. Score both frames and repair the highest-impact defect.
+> Preserve passing details and record one publication risk.
+
+---
+
 # Official References (1/2)
 
 - [Work and school account capabilities](https://support.google.com/gemini/answer/14620100?co=DASHER._Family%3DBusiness-Enterprise&hl=en)
@@ -709,6 +737,6 @@ Before delivery or deployment, verify:
 
 # Questions?
 
-**Optional extension complete: choose one governed media workflow to pilot**
+**Next: build a source-grounded presentation workflow**
 
 <img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg" />

@@ -1,0 +1,20 @@
+%%{init: {"flowchart": {"wrappingWidth": 420}, "themeVariables": {"fontSize": "20px", "fontFamily": "Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif", "primaryColor": "#e3f2fd", "primaryTextColor": "#1e293b", "primaryBorderColor": "#1a73e8", "lineColor": "#1a73e8", "secondaryColor": "#fff3e0", "tertiaryColor": "#e8f5e9", "background": "#ffffff", "edgeLabelBackground": "#ffffff", "clusterBkg": "#f5f7fa", "clusterBorder": "#e2e8f0", "titleColor": "#1a73e8"}}}%%
+flowchart LR
+    subgraph RAPID["<b>Rapid narrative draft</b>"]
+        direction LR
+        IDEA["<b>Prompt or report</b>"] --> CANVAS["<b>Gemini Canvas</b><br/>draft and reshape story"] --> EXPORT["<b>Export</b><br/>Google Slides or PDF"]
+    end
+
+    subgraph GOVERNED["<b>Governed workflow</b>"]
+        direction LR
+        SOURCES["<b>Approved sources</b>"] --> SLIDES["<b>Gemini in Slides</b><br/>plan, generate, repair"] --> EDITABLE["<b>Editable deck</b><br/>collaborate and approve"]
+    end
+
+    RAPID -.->|"handoff for review"| GOVERNED
+
+    style IDEA fill:#e3f2fd,stroke:#1a73e8
+    style CANVAS fill:#fff3e0,stroke:#e65100
+    style EXPORT fill:#e8f5e9,stroke:#2e7d32
+    style SOURCES fill:#e3f2fd,stroke:#1a73e8
+    style SLIDES fill:#1a237e,stroke:#1a237e,color:#ffffff
+    style EDITABLE fill:#e8f5e9,stroke:#2e7d32

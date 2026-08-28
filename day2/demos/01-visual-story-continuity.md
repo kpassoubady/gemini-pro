@@ -51,7 +51,7 @@ Output A fails identity, wardrobe, drone design, palette, and style. Output B is
 
 ## Delivery
 
-1. Generate Frame 1 and select one result as the approved anchor.
+1. Open Gemini Apps Images with Nano Banana 2, generate Frame 1, and select one result as the approved anchor.
 2. Generate the weak Frame 2 without the anchor; ask learners to name visible drift.
 3. Generate the repaired Frame 2 in the original conversation and attach Frame 1 if the surface supports references.
 4. Score both Frame 2 outputs for identity, wardrobe, Orbit design, palette, style, geography, and aspect ratio.

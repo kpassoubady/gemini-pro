@@ -32,7 +32,7 @@ Animate approved Frame 3 for five seconds. Begin with Orbit stationary in the sa
 ## Delivery
 
 1. Show both approved keyframes and ask learners what must match across the cut.
-2. Generate each clip from its keyframe where image-to-video is available.
+2. In Google Vids AI video, animate each approved keyframe or use it as a reference image for the matching clip.
 3. Reject unexpected redesigns, extra objects, reversed geography, or uncontrolled camera motion.
 4. Assemble accepted clips in Google Vids; add reviewed narration and captions after the visual cut works.
 5. If video generation is unavailable, use the prompts and checklist to review two prepared clips or stills.
