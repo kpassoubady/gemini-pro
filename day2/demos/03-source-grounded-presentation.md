@@ -24,7 +24,9 @@ Before approval, check that the plan:
 4. Includes exactly five slides with one purpose each.
 5. Contains no unsupported percentage, outcome, or approval claim.
 
-## Offline fallback
+## Offline fallback (local check, not Gemini in Slides evidence)
+
+Run `python3 day2/demos/verify_offline_evidence.py --case source-grounded-presentation`. This checks only authored plan signals; it does not create an editable presentation.
 
 Compare these fictional plan lines before revealing the diagnosis:
 

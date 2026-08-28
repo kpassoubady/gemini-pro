@@ -28,7 +28,9 @@ Which source establishes the field-operations exception, who qualifies, and what
 4. Open the policy passage and verify all parts of the spoken answer.
 5. Explain that shared audio contains the original overview, not the interaction.
 
-## Offline fallback
+## Offline fallback (local check, not Audio Overview evidence)
+
+Run `python3 day2/demos/verify_offline_evidence.py --case interactive-audio-overview`. This checks authored interaction labels only; it does not generate audio or join Interactive mode.
 
 Host answer: “The policy allows all field workers to use the old process indefinitely.” The answer fails because the exception requires approval and ends after regional security review.
 

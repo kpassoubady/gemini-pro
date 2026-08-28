@@ -45,7 +45,9 @@ Compare two available routes:
 
 Use the editable route when text correction, accessibility, localization, chart maintenance, or collaboration matters.
 
-## Offline fallback
+## Offline fallback (local check, not Slides evidence)
+
+Run `python3 day2/demos/verify_offline_evidence.py --case editable-slide-repair`. This checks authored review signals only; it does not edit a slide.
 
 Ask learners which output passes the acceptance check:
 

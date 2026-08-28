@@ -7,6 +7,22 @@ header: 'Gemini Pro'
 footer: 'Day 2 - Session 17: Gemini Notebook Multimedia Generation'
 ---
 
+<style>
+.industry-badge {
+  border-left: 0.25em solid #e65100;
+  background: #fff3e0;
+  padding: 0.3em 0.8em;
+  font-size: 0.78em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #e65100;
+  margin-bottom: 0.5em;
+  display: inline-block;
+  border-radius: 0 4px 4px 0;
+}
+</style>
+
 <!-- _class: lead -->
 <!-- _paginate: false -->
 
@@ -82,6 +98,28 @@ Review the selected sources and custom prompt before reviewing polish.
 | **Immersive source story** | Cinematic Video |
 
 Use Short Video for an approximately 60-second recap.
+
+---
+
+# Artifact Selection (Fintech)
+
+<div class="industry-badge">REAL-WORLD SCENARIO</div>
+
+**Fintech (Visa: Visa Protect for A2A):**
+
+- A short, reviewed audio briefing can orient merchant-support teams to a new dispute or fraud-control procedure.
+- An infographic is a better fit for a bounded sequence of authentication steps that agents must scan during a call.
+
+---
+
+# Artifact Selection (Manufacturing)
+
+<div class="industry-badge">REAL-WORLD SCENARIO</div>
+
+**Manufacturing (Schneider Electric: EcoStruxure Maintenance Advisor):**
+
+- An explainer video can show a maintenance sequence when motion and equipment context matter.
+- A concise infographic is better for a lockout checklist that operators need to reference at the workstation.
 
 ---
 
@@ -221,7 +259,7 @@ Gemini Notebook can customize:
 - Supported visual style
 - Focus, color, and required content through a prompt
 
-The downloaded format is PNG, so provide an accessible text equivalent.
+The downloaded format is PNG (Portable Network Graphics), so provide an accessible text equivalent.
 
 ---
 
@@ -236,6 +274,28 @@ Inspect:
 5. Image rights, disclosure, and an accessible alternative
 
 A correct word can still appear in a misleading visual relationship.
+
+---
+
+# Multimedia Review (Fintech)
+
+<div class="industry-badge">REAL-WORLD SCENARIO</div>
+
+**Fintech (Wells Fargo: Erica):**
+
+- Reviewers can check an AI-generated explainer for correct rates, eligibility conditions, captions, and the distinction between guidance and policy.
+- The source passage, accessible text alternative, and approval owner stay attached to the artifact before distribution.
+
+---
+
+# Multimedia Review (Manufacturing)
+
+<div class="industry-badge">REAL-WORLD SCENARIO</div>
+
+**Manufacturing (ABB: ABB Ability):**
+
+- Reviewers can compare an equipment explainer with the approved procedure, checking labels, sequence, safety warnings, and narration.
+- A visual defect or missing caption is corrected before operators receive the downloaded artifact.
 
 ---
 

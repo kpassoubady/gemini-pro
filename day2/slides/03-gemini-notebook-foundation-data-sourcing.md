@@ -7,13 +7,29 @@ header: 'Gemini Pro'
 footer: 'Day 2 - Session 13: Gemini Notebook Foundation and Data Sourcing'
 ---
 
+<style>
+.industry-badge {
+  border-left: 0.25em solid #e65100;
+  background: #fff3e0;
+  padding: 0.3em 0.8em;
+  font-size: 0.78em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #e65100;
+  margin-bottom: 0.5em;
+  display: inline-block;
+  border-radius: 0 4px 4px 0;
+}
+</style>
+
 <!-- _class: lead -->
 <!-- _paginate: false -->
 
 # Gemini Pro
 ## Gemini Notebook: Foundation and Data Sourcing
 
-Day 2 - Session 13
+**Day 2 - Session 13**
 
 <img class="logo" src="https://cdn.jsdelivr.net/gh/kpassoubady/marp-themes@v6/logo-white.svg"  style="max-height:80px" />
 
@@ -95,7 +111,7 @@ A notebook is a persistent research workspace, not a single chat upload.
 | Family | Examples |
 | :--- | :--- |
 | **Workspace** | Google Docs, Slides, and Sheets |
-| **Uploaded files** | PDF, DOCX, PPTX, CSV, Markdown, text, ePub |
+| **Uploaded files** | PDF (Portable Document Format), DOCX (Word document), PPTX (PowerPoint presentation), CSV (comma-separated values), Markdown, text, ePub (electronic publication) |
 | **Media** | Images, audio, and public YouTube URLs |
 | **Direct input** | Web pages, pasted text, Gemini chats, eligible Play Books |
 
@@ -188,6 +204,28 @@ Mark an unavailable detail as unknown instead of filling the gap.
 
 ---
 
+# Source Register (Fintech)
+
+<div class="industry-badge">REAL-WORLD SCENARIO</div>
+
+**Fintech (American Express: fraud detection):**
+
+- A notebook can register transaction-policy documents, model-monitoring notes, and dated fraud research by authority, freshness, and permitted audience.
+- Analysts can then select the controlling policy for a review question instead of treating every imported source as equally authoritative.
+
+---
+
+# Source Register (Manufacturing)
+
+<div class="industry-badge">REAL-WORLD SCENARIO</div>
+
+**Manufacturing (Bosch: connected manufacturing):**
+
+- A plant notebook can classify machine manuals, sensor exports, maintenance logs, and supplier notices by scope and freshness.
+- Recording import quality helps engineers spot missing fields before using a source to explain a production anomaly.
+
+---
+
 <!-- _class: demo -->
 
 # Demo: Control the Notebook Source Boundary
@@ -233,6 +271,28 @@ Selection does not make a weak source authoritative.
 | Unresolved discussion | Meeting notes, labeled as provisional |
 
 Use informal notes to find questions, not to override approved policy.
+
+---
+
+# Match Authority to the Claim (Fintech)
+
+<div class="industry-badge">REAL-WORLD SCENARIO</div>
+
+**Fintech (JPMorgan Chase: COiN):**
+
+- A contract-review notebook can use the approved agreement as the controlling source for obligations and renewal terms.
+- External legal commentary can add context, but it should not override the signed contract when the question asks what the bank must do.
+
+---
+
+# Match Authority to the Claim (Manufacturing)
+
+<div class="industry-badge">REAL-WORLD SCENARIO</div>
+
+**Manufacturing (Siemens: Industrial Copilot):**
+
+- A maintenance answer should prioritize the current equipment manual and approved service procedure over an informal technician note.
+- A vendor article may suggest a troubleshooting path, but the technician verifies it against the asset-specific record before action.
 
 ---
 

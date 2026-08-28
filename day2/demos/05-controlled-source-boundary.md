@@ -22,7 +22,9 @@ Using the selected notebook sources only, state the remote-access change, its ef
 4. Submit the same question and compare claims, citations, and uncertainty.
 5. Open each citation and verify that the passage supports the claim.
 
-## Offline fallback
+## Offline fallback (local check, not Notebook evidence)
+
+Run `python3 day2/demos/verify_offline_evidence.py --case controlled-source-boundary`. This checks authored response signals only; it does not import sources or produce citations.
 
 Compare these fictional responses:
 

@@ -24,7 +24,9 @@ Use the checked rows from Demo 07. Save the effective date, enrollment deadline,
 - No generated note is treated as primary evidence.
 - Export permissions are reviewed separately from notebook access.
 
-## Offline fallback
+## Offline fallback (local check, not Notebook evidence)
+
+Run `python3 day2/demos/verify_offline_evidence.py --case verified-notes-to-study-aids`. This checks authored artifact labels only; it does not generate notes or study aids.
 
 A quiz asks, “Which phased rollout method does the policy require?” The correct review outcome is to delete or rewrite the question because the policy does not establish a phased rollout method.
 

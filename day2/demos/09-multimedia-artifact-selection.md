@@ -22,7 +22,9 @@ Create a landscape visual for managers. Show the 10 October enrollment deadline,
 4. Verify contrast, reading order, and an accessible text equivalent.
 5. Explain when an Explainer or Cinematic Video would justify its added complexity.
 
-## Offline fallback defects
+## Offline fallback (local check, not Notebook media evidence)
+
+Run `python3 day2/demos/verify_offline_evidence.py --case multimedia-artifact-selection`. This checks authored review labels only; it does not generate media. defects
 
 The prepared visual places enrollment after the effective date, omits “approved” from the field exception, and labels the public article’s pilot recommendation as mandatory. Learners must find all three defects.
 

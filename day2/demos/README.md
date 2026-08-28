@@ -12,3 +12,7 @@
 | `08-verified-notes-to-study-aids.md` | Session 15 | Turn checked notes into a reviewed study guide and quiz | Gemini Notebook or prepared artifacts |
 | `09-multimedia-artifact-selection.md` | Session 17 | Choose and review a visual overview for policy milestones | Gemini Notebook or prepared visual |
 | `10-interactive-audio-overview.md` | Session 17 | Join an Audio Overview and verify an exception answer | Interactive mode or scripted response |
+
+## Evidence boundary
+
+Each demo's offline command runs an authored, deterministic check and labels its output `product_execution=NOT_CLAIMED`. It is not a Gemini product simulation or live-product proof. For live delivery, the instructor must run the named surface, capture the actual output/state under `evidence/<YYYYMMDD>-<demo-slug>/`, and record account/feature prerequisites, timestamps, and review results. If live execution is unavailable, report it as unverified and use the local result only to inspect the teaching decision.

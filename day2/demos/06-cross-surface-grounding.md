@@ -22,7 +22,9 @@ What does this notebook establish about the remote-access change, and has any la
 4. Mark claims as notebook evidence, outside evidence, or unsupported.
 5. Explain why the Gemini Apps result may use web search or other tools.
 
-## Offline fallback
+## Offline fallback (local check, not live-surface evidence)
+
+Run `python3 day2/demos/verify_offline_evidence.py --case cross-surface-grounding`. This checks the authored comparison labels only; it does not query either Gemini surface.
 
 - Standalone response: “The policy begins 15 October and requires enrollment by 10 October. The selected sources contain no later public guidance.”
 - Gemini Apps response: “The notebook sets those dates. A recent public article recommends a phased rollout.”

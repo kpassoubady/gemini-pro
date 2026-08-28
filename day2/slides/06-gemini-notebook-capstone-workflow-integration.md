@@ -7,6 +7,22 @@ header: 'Gemini Pro'
 footer: 'Day 2 - Session 18: Gemini Notebook Capstone and Workflow Integration'
 ---
 
+<style>
+.industry-badge {
+  border-left: 0.25em solid #e65100;
+  background: #fff3e0;
+  padding: 0.3em 0.8em;
+  font-size: 0.78em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #e65100;
+  margin-bottom: 0.5em;
+  display: inline-block;
+  border-radius: 0 4px 4px 0;
+}
+</style>
+
 <!-- _class: lead -->
 <!-- _paginate: false -->
 
@@ -130,6 +146,28 @@ A synchronized notebook does not make every surface use the same evidence.
 
 ---
 
+# Evidence Boundary at Handoff (Fintech)
+
+<div class="industry-badge">REAL-WORLD SCENARIO</div>
+
+**Fintech (Intuit: QuickBooks):**
+
+- A finance team can carry source names, verification dates, and approval notes from a notebook into a reviewed Docs or Slides briefing about small-business cash flow.
+- A receiving owner rechecks claims after export because the presentation is a copy, not a synchronized evidence layer.
+
+---
+
+# Evidence Boundary at Handoff (Manufacturing)
+
+<div class="industry-badge">REAL-WORLD SCENARIO</div>
+
+**Manufacturing (Siemens: Industrial Copilot):**
+
+- An engineering team can move verified maintenance findings into a governed work instruction or training deck while retaining source references.
+- The receiving owner confirms equipment scope and permissions before the exported artifact reaches plant operators.
+
+---
+
 # Workspace Handoffs Create Copies
 
 <img src="../diagrams/workspace-handoff-boundaries.svg" alt="Gemini Notebook evidence handed to Docs, Sheets, Slides, and Vids with new permission, ownership, and freshness controls" style="display:block; margin:0 auto; max-height:420px;"  style="max-height:80px" />
@@ -206,6 +244,28 @@ Assign:
 - Exported artifact inventory
 - Archive or deletion rule
 A source update can make an approved artifact stale.
+
+---
+
+# Maintenance Contract (Fintech)
+
+<div class="industry-badge">REAL-WORLD SCENARIO</div>
+
+**Fintech (Stripe: Radar):**
+
+- A fraud-operations notebook assigns owners for model notes, policy sources, review dates, and exported analyst guidance.
+- A threshold or policy change triggers citation review and artifact refresh before the guidance is reused.
+
+---
+
+# Maintenance Contract (Manufacturing)
+
+<div class="industry-badge">REAL-WORLD SCENARIO</div>
+
+**Manufacturing (Bosch: Nexeed connected manufacturing):**
+
+- A plant notebook records source owners, sensor-data freshness, the next review date, and the equipment scope of each artifact.
+- A machine change or revised procedure triggers re-verification before a training document remains in circulation.
 
 ---
 

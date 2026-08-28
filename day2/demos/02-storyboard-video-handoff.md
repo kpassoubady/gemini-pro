@@ -29,6 +29,10 @@ Animate approved Frame 3 for five seconds. Begin with Orbit stationary in the sa
 | Light | Cyan ring pulse ends | Cyan work light becomes steady |
 | Geography | Close view of panel | Medium view of same panel |
 
+## Offline fallback (local check, not Google Vids evidence)
+
+Run `python3 day2/demos/verify_offline_evidence.py --case storyboard-video-handoff`. This checks authored handoff signals only; it does not create clips or a timeline.
+
 ## Delivery
 
 1. Show both approved keyframes and ask learners what must match across the cut.

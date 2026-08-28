@@ -7,6 +7,22 @@ header: 'Gemini Pro'
 footer: 'Day 2 - Session 15: Gemini Notebook Synthesis and Active Interrogation'
 ---
 
+<style>
+.industry-badge {
+  border-left: 0.25em solid #e65100;
+  background: #fff3e0;
+  padding: 0.3em 0.8em;
+  font-size: 0.78em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #e65100;
+  margin-bottom: 0.5em;
+  display: inline-block;
+  border-radius: 0 4px 4px 0;
+}
+</style>
+
 <!-- _class: lead -->
 <!-- _paginate: false -->
 
@@ -96,6 +112,28 @@ Add one owner question for every unresolved row.
 | **Owner question** | Human input required before action |
 
 One row should contain one claim.
+
+---
+
+# Claim-Evidence Matrix (Fintech)
+
+<div class="industry-badge">REAL-WORLD SCENARIO</div>
+
+**Fintech (Mastercard: Decision Intelligence):**
+
+- A fraud-operations team can compare a transaction alert, model signal, analyst note, and policy threshold as separate evidence rows.
+- The matrix preserves partial or unresolved findings instead of turning a risk score into an automatic approval or decline claim.
+
+---
+
+# Claim-Evidence Matrix (Manufacturing)
+
+<div class="industry-badge">REAL-WORLD SCENARIO</div>
+
+**Manufacturing (Caterpillar: Cat MineStar machine monitoring):**
+
+- A service team can compare sensor alerts, inspection records, operator notes, and maintenance guidance for one machine issue.
+- Each row names the evidence and owner question, so a predicted fault is not presented as a confirmed failure.
 
 ---
 
@@ -246,6 +284,28 @@ Before conversion:
 - Remove unsupported interpretation.
 - Record the verification date and owner.
 A derived source should not silently replace the originals.
+
+---
+
+# Verified Notes (Fintech)
+
+<div class="industry-badge">REAL-WORLD SCENARIO</div>
+
+**Fintech (Capital One: Eno):**
+
+- A service team can save a checked note that separates a customer question, cited account policy, and unresolved escalation decision.
+- The note remains useful for training only when its verification date and links to the source policy travel with it.
+
+---
+
+# Verified Notes (Manufacturing)
+
+<div class="industry-badge">REAL-WORLD SCENARIO</div>
+
+**Manufacturing (Toyota: production system):**
+
+- A continuous-improvement team can save a verified note linking an observed defect to the standard work instruction and corrective-action owner.
+- Labeling the note as derived prevents a later shift from mistaking a local interpretation for the original procedure.
 
 ---
 

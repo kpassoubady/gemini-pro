@@ -35,6 +35,61 @@ Day 2 - Session 10
 
 ---
 
+# Prerequisites
+
+Confirm these prerequisites:
+
+- A Google account with access to Gemini and Google Workspace
+- Access to the course's Gemini Notebook and Google Workspace features used in the sessions
+- Prepared or non-sensitive material for classroom activities
+
+---
+
+<!-- _class: chat-waterfall -->
+
+# Introduce Yourself
+
+In one chat message, type:
+
+1. Your name
+2. Your location or time zone
+3. Your role
+4. Your total experience in information technology (IT) and at your current organization
+
+> **Type your answer in the chat, but do not send it yet.**
+> Wait for the countdown: 3... 2... 1... BLAST
+
+---
+
+<!-- _class: chat-waterfall -->
+
+# Your Enterprise Gemini Experience
+
+In one chat message, type:
+
+1. Your current experience with Gemini, Gemini Notebook, and Google Workspace
+2. Your main focus area, such as financial services, operations, manufacturing, or another work area
+3. One enterprise workflow challenge or question you want answered by this course
+
+> **Type your answer in the chat, but do not send it yet.**
+> Wait for the countdown: 3... 2... 1... BLAST
+
+---
+
+<!-- _class: chat-waterfall-answer -->
+
+# Your Enterprise Gemini Experience: What We Learned
+
+Your responses help us emphasize:
+
+- **Your starting point:** Enterprise media creation, source-grounded presentations, and Gemini Notebook research
+- **Your focus area:** Evidence, governance, collaboration, or repeatable Workspace workflows
+- **Your key questions:** Source selection, review gates, synthesis, and responsible multimedia generation
+
+> Compare your response with these themes and note one topic to revisit.
+
+---
+
 # What We'll Cover
 
 1. Analyze images, audio, music, and video
@@ -181,6 +236,28 @@ state confidence, and mark anything unreadable or uncertain.
 Do not infer identity, intent, or sensitive attributes.
 Return a review table for a human approver.
 ```
+
+---
+
+# Media Review Queue (Fintech)
+
+<div class="industry-badge">REAL-WORLD SCENARIO</div>
+
+**Fintech (JPMorgan Chase: Contract Intelligence):**
+
+- Reviewers can use document analysis to extract clauses, obligations, and renewal dates from a controlled contract set.
+- A human review queue checks each cited passage before a relationship manager relies on the finding.
+
+---
+
+# Media Review Queue (Manufacturing)
+
+<div class="industry-badge">REAL-WORLD SCENARIO</div>
+
+**Manufacturing (Siemens: Industrial Copilot):**
+
+- Engineers can analyze maintenance manuals, machine photos, and service recordings to locate an abnormal condition.
+- The work order retains the source reference and technician verification instead of treating the model observation as a diagnosis.
 
 ---
 
@@ -348,6 +425,28 @@ Describe what changes; repeat what must not change.
 | Geography | Panel sits left of platform clock | Spatial relationship flips |
 
 Record accepted truths early so reviewers compare evidence, not memory.
+
+---
+
+# Continuity Ledger (Fintech)
+
+<div class="industry-badge">REAL-WORLD SCENARIO</div>
+
+**Fintech (Capital One: Eno):**
+
+- A conversational assistant can keep approved product terms, escalation language, and customer context consistent across repeated service interactions.
+- A continuity ledger for prompts and approved responses helps reviewers catch drift before a customer-facing update is published.
+
+---
+
+# Continuity Ledger (Manufacturing)
+
+<div class="industry-badge">REAL-WORLD SCENARIO</div>
+
+**Manufacturing (BMW Group: AIQX visual inspection):**
+
+- Quality teams can keep inspection criteria, part identity, and camera placement stable across repeated production-line images.
+- Accepted reference frames and a defect ledger make visual drift visible before a changed model is used for quality decisions.
 
 ---
 
@@ -519,7 +618,7 @@ Review lyrics, pronunciation, cultural context, rights, and brand fit.
 
 **Internal policy rollout:**
 
-- Create an Audio Overview from the approved policy and FAQ.
+- Create an Audio Overview from the approved policy and FAQ (frequently asked questions).
 - Produce a short Vids explainer with reviewed voiceover copy.
 - Add generated music only when it improves comprehension.
 - Publish the policy itself as the authoritative source.
@@ -552,7 +651,7 @@ A Vids workflow can combine:
 - A prompt and approved Drive sources
 - A suggested outline and scenes
 - Stock, uploaded, or generated media
-- Scripts, AI voiceovers, music, and avatars
+- Scripts, AI (artificial intelligence) voiceovers, music, and avatars
 - Collaborative editing and sharing
 
 The team still owns the final narrative and approval.

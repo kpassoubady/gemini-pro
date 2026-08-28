@@ -7,6 +7,22 @@ header: 'Gemini Pro'
 footer: 'Day 2 - Session 11: Advanced Presentation Workflows'
 ---
 
+<style>
+.industry-badge {
+  border-left: 0.25em solid #e65100;
+  background: #fff3e0;
+  padding: 0.3em 0.8em;
+  font-size: 0.78em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #e65100;
+  margin-bottom: 0.5em;
+  display: inline-block;
+  border-radius: 0 4px 4px 0;
+}
+</style>
+
 <!-- _class: lead -->
 <!-- _paginate: false -->
 
@@ -97,7 +113,7 @@ In Gemini Canvas, you can:
 - Request a slide presentation in the prompt.
 - Add files or images as context.
 - Turn a Canvas document or report into a slideshow.
-- Export the result to Google Slides or PDF.
+- Export the result to Google Slides or PDF (Portable Document Format).
 
 Use Slides for detailed review and team collaboration.
 
@@ -238,6 +254,28 @@ Check that the plan:
 
 ---
 
+# Presentation Plan Review (Fintech)
+
+<div class="industry-badge">REAL-WORLD SCENARIO</div>
+
+**Fintech (Mastercard: Decision Intelligence):**
+
+- A fraud-risk briefing can separate transaction evidence, model interpretation, and the approval action for operations leaders.
+- Reviewing the source list and slide plan first helps prevent a polished deck from turning a risk score into an unsupported decision.
+
+---
+
+# Presentation Plan Review (Manufacturing)
+
+<div class="industry-badge">REAL-WORLD SCENARIO</div>
+
+**Manufacturing (GE Aerospace: Digital Twin predictive maintenance):**
+
+- A maintenance-readiness deck can ground service priorities in equipment telemetry, inspection records, and approved maintenance guidance.
+- Plan review keeps each slide tied to one decision, such as scheduling an inspection or documenting an unresolved signal.
+
+---
+
 <!-- _class: demo -->
 
 # Demo: Source-Grounded Presentation Plan
@@ -326,6 +364,28 @@ Compare the preview with the original:
 | Weak hierarchy | Separate evidence from requested action |
 | Poor layout | Convert to two columns without changing facts |
 | Decorative visual | Replace it with an evidence-bearing visual |
+
+---
+
+# Bounded Slide Repair (Fintech)
+
+<div class="industry-badge">REAL-WORLD SCENARIO</div>
+
+**Fintech (Stripe: Radar):**
+
+- An operations slide can isolate one defect, such as an unexplained fraud-review queue change, while preserving verified thresholds and owners.
+- A bounded edit improves hierarchy without inventing a new fraud trend or changing the underlying decision rule.
+
+---
+
+# Bounded Slide Repair (Manufacturing)
+
+<div class="industry-badge">REAL-WORLD SCENARIO</div>
+
+**Manufacturing (Toyota: Andon production quality):**
+
+- A plant review slide can replace a dense incident paragraph with one editable chart and three verified evidence points.
+- The repair keeps part counts, timestamps, and corrective-action owners unchanged while making the next action clear.
 
 ---
 

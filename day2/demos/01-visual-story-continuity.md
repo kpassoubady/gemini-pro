@@ -40,9 +40,9 @@ Use the story bible and approved frames as visual references. Frame 3 of 4: medi
 Use the story bible and approved frames as visual references. Frame 4 of 4: wide shot, pulling back. The solar panel is repaired and the station lights now glow warmly, casting a golden hue over the platform. Mina and Orbit stand together on the platform looking down the tracks. Preserve Mina's identity, teal glasses, mustard jacket, navy backpack, and compass pin. Preserve Orbit's white sphere and single cyan ring. Match the railway architecture, teal-and-gold palette, early morning lighting, gouache texture, and 16:9 format. Do not add people, logos, text, or change costume details.
 ```
 
-## Offline fallback
+## Offline fallback (local check, not Gemini evidence)
 
-Score these fictional output reports before revealing the diagnosis:
+Run `python3 day2/demos/verify_offline_evidence.py --case visual-story-continuity`. This executes a deterministic signal check against the authored fixture; it does not generate or inspect an image. Score these fictional output reports before revealing the diagnosis:
 
 - **Output A:** Mina has rectangular black glasses and a green coat; Orbit has two arms; the image is photorealistic.
 - **Output B:** Mina and Orbit match the anchor, but the compass pin is absent and the panel moved to the right of the clock.

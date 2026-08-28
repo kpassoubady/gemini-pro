@@ -22,7 +22,9 @@ Compare the four selected sources for a manager preparing the remote-access roll
 4. Narrow partial claims and preserve unresolved questions.
 5. Save only rows whose status and citations have been checked.
 
-## Offline fallback
+## Offline fallback (local check, not Notebook evidence)
+
+Run `python3 day2/demos/verify_offline_evidence.py --case contradiction-first-synthesis`. This checks authored status signals only; it does not synthesize or cite sources.
 
 Reject this generated row: “The company requires a phased rollout beginning 1 October.” The meeting note contains the unconfirmed date, and the public article recommends phasing without controlling company policy. The verified policy date is 15 October; the rollout method remains unresolved.
 
