@@ -1,0 +1,19 @@
+%%{init: {"flowchart": {"wrappingWidth": 420}, "themeVariables": {"fontSize": "20px", "fontFamily": "Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif", "primaryColor": "#e3f2fd", "primaryTextColor": "#1e293b", "primaryBorderColor": "#1a73e8", "lineColor": "#1a73e8", "secondaryColor": "#fff3e0", "tertiaryColor": "#e8f5e9", "background": "#ffffff", "edgeLabelBackground": "#ffffff", "clusterBkg": "#f5f7fa", "clusterBorder": "#e2e8f0", "titleColor": "#1a73e8"}}}%%
+flowchart LR
+    BRIEF["<b>Presentation brief</b><br/>audience, action, constraints"] --> SOURCE["<b>Select sources</b><br/>content and style kept distinct"]
+    SOURCE --> QUESTIONS["<b>Clarify</b><br/>length, tone, focus"]
+    QUESTIONS --> PLAN["<b>Generated plan</b><br/>overview, sources, steps"]
+    PLAN --> CHECK{"<b>Grounded and coherent?</b>"}
+    CHECK -- "no" --> REVISE["<b>Revise plan</b><br/>edit, add, remove, reorder"]
+    REVISE --> PLAN
+    CHECK -- "yes" --> GENERATE["<b>Generate deck</b><br/>fully editable slides"]
+    GENERATE --> VERIFY["<b>Verify</b><br/>evidence, narrative, accessibility"]
+
+    style BRIEF fill:#e3f2fd,stroke:#1a73e8
+    style SOURCE fill:#f3e5f5,stroke:#7b1fa2
+    style QUESTIONS fill:#fff3e0,stroke:#e65100
+    style PLAN fill:#1a237e,stroke:#1a237e,color:#ffffff
+    style CHECK fill:#fff3e0,stroke:#e65100
+    style REVISE fill:#fce4ec,stroke:#c62828
+    style GENERATE fill:#e8f5e9,stroke:#2e7d32
+    style VERIFY fill:#e8f5e9,stroke:#2e7d32

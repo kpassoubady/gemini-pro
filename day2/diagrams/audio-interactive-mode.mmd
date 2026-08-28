@@ -1,0 +1,19 @@
+%%{init: {"flowchart": {"wrappingWidth": 420}, "themeVariables": {"fontSize": "20px", "fontFamily": "Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif", "primaryColor": "#e3f2fd", "primaryTextColor": "#1e293b", "primaryBorderColor": "#1a73e8", "lineColor": "#1a73e8", "secondaryColor": "#fff3e0", "tertiaryColor": "#e8f5e9", "background": "#ffffff", "edgeLabelBackground": "#ffffff", "clusterBkg": "#f5f7fa", "clusterBorder": "#e2e8f0", "titleColor": "#1a73e8"}}}%%
+flowchart LR
+    SOURCES["<b>Select sources</b><br/>verified evidence set"] --> CREATE["<b>Create new overview</b><br/>Interactive mode"]
+    CREATE --> PLAY["<b>Play and Join</b><br/>wait for the hosts"]
+    PLAY --> ASK["<b>Ask one bounded question</b><br/>test an exception or conflict"]
+    ASK --> ANSWER["<b>Hosts respond</b><br/>then resume overview"]
+    ANSWER --> VERIFY{"<b>Answer supported?</b>"}
+    VERIFY -- "no" --> RECORD["<b>Record defect</b><br/>do not share as fact"]
+    RECORD --> ASK
+    VERIFY -- "yes" --> SHARE["<b>Share original overview</b><br/>interaction is not included"]
+
+    style SOURCES fill:#e3f2fd,stroke:#1a73e8
+    style CREATE fill:#1a237e,stroke:#1a237e,color:#ffffff
+    style PLAY fill:#fff3e0,stroke:#e65100
+    style ASK fill:#f3e5f5,stroke:#7b1fa2
+    style ANSWER fill:#fff3e0,stroke:#e65100
+    style VERIFY fill:#fff3e0,stroke:#e65100
+    style RECORD fill:#fce4ec,stroke:#c62828
+    style SHARE fill:#e8f5e9,stroke:#2e7d32

@@ -1,0 +1,20 @@
+%%{init: {"flowchart": {"wrappingWidth": 420}, "themeVariables": {"fontSize": "20px", "fontFamily": "Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif", "primaryColor": "#e3f2fd", "primaryTextColor": "#1e293b", "primaryBorderColor": "#1a73e8", "lineColor": "#1a73e8", "secondaryColor": "#fff3e0", "tertiaryColor": "#e8f5e9", "background": "#ffffff", "edgeLabelBackground": "#ffffff", "clusterBkg": "#f5f7fa", "clusterBorder": "#e2e8f0", "titleColor": "#1a73e8"}}}%%
+flowchart LR
+    QUESTION["<b>Decision question</b><br/>sources and dimensions named"] --> RETRIEVE["<b>Retrieve passages</b><br/>across selected sources"]
+    RETRIEVE --> COMPARE["<b>Compare claims</b><br/>agreement, conflict, gaps"]
+    COMPARE --> STATUS{"<b>Evidence status?</b>"}
+    STATUS -- "supported" --> KEEP["<b>Keep claim</b><br/>citation and qualifier"]
+    STATUS -- "partial or conflict" --> REVISE["<b>Narrow claim</b><br/>preserve uncertainty"]
+    STATUS -- "unresolved" --> OWNER["<b>Ask source owner</b><br/>do not infer an answer"]
+    REVISE --> COMPARE
+    KEEP --> BRIEF["<b>Verified synthesis</b><br/>evidence before action"]
+    OWNER --> BRIEF
+
+    style QUESTION fill:#e3f2fd,stroke:#1a73e8
+    style RETRIEVE fill:#fff3e0,stroke:#e65100
+    style COMPARE fill:#1a237e,stroke:#1a237e,color:#ffffff
+    style STATUS fill:#fff3e0,stroke:#e65100
+    style KEEP fill:#e8f5e9,stroke:#2e7d32
+    style REVISE fill:#fce4ec,stroke:#c62828
+    style OWNER fill:#f3e5f5,stroke:#7b1fa2
+    style BRIEF fill:#e8f5e9,stroke:#2e7d32

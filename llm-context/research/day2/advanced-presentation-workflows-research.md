@@ -1,12 +1,12 @@
-# Optional Session 8 Research: Advanced Presentation Workflows
+# Session 11 Research: Advanced Presentation Workflows
 
 **Research date:** 2026-08-27
 **Course:** Gemini Pro
-**Session:** Day 1, optional Session 8 — Advanced Presentation Workflows
+**Session:** Day 2, Session 11 — Advanced Presentation Workflows
 
 ## Scope
 
-This optional session extends Session 6 from Sheets and Docs artifacts into presentation creation. It should distinguish two creation surfaces and several output types rather than presenting every capability as interchangeable:
+This Day 2 session extends Day 1 Session 6 from Sheets and Docs artifacts into presentation creation. It should distinguish two creation surfaces and several output types rather than presenting every capability as interchangeable:
 
 1. **Gemini Canvas:** Create a slide presentation from a prompt or uploaded source, iterate in Canvas, then export to Google Slides or PDF.
 2. **Gemini in Google Slides:** Generate a fully editable presentation in a blank deck, generate or edit one fully editable slide, summarize a presentation, rewrite content, and reference approved sources.
@@ -97,8 +97,8 @@ Review at least these gates:
 
 Use a fictional internal launch-readiness scenario grounded in a short policy document and a verified project tracker.
 
-- **Demo 15:** Generate a five-slide plan from approved sources, inspect the source list and plan, and reject an attractive but unsupported claim before deck generation.
-- **Demo 16:** Repair one overloaded slide with a bounded prompt, compare editable output with a generated slide image, and apply an accessibility and evidence checklist.
+- **Demo 03:** Generate a five-slide plan from approved sources, inspect the source list and plan, and reject an attractive but unsupported claim before deck generation.
+- **Demo 04:** Repair one overloaded slide with a bounded prompt, compare editable output with a generated slide image, and apply an accessibility and evidence checklist.
 
 Both demos should include offline artifacts because full presentation generation may be unavailable for the instructor’s plan, language, account, administrator configuration, or rollout.
 

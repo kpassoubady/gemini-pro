@@ -1,0 +1,20 @@
+%%{init: {"flowchart": {"wrappingWidth": 420}, "themeVariables": {"fontSize": "20px", "fontFamily": "Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif", "primaryColor": "#e3f2fd", "primaryTextColor": "#1e293b", "primaryBorderColor": "#1a73e8", "lineColor": "#1a73e8", "secondaryColor": "#fff3e0", "tertiaryColor": "#e8f5e9", "background": "#ffffff", "edgeLabelBackground": "#ffffff", "clusterBkg": "#f5f7fa", "clusterBorder": "#e2e8f0", "titleColor": "#1a73e8"}}}%%
+flowchart LR
+    OWNER["<b>Assign owner</b><br/>and backup"] --> DATE["<b>Set review date</b><br/>and trigger events"]
+    DATE --> CHECK["<b>Check sources</b><br/>freshness, access, synchronization"]
+    CHECK --> IMPACT{"<b>Material change?</b>"}
+    IMPACT -- "yes" --> REVERIFY["<b>Reverify outputs</b><br/>notes, guides, media, exports"]
+    REVERIFY --> SHARE["<b>Update audience</b><br/>record approval"]
+    SHARE --> DATE
+    IMPACT -- "no" --> RETAIN{"<b>Still needed?</b>"}
+    RETAIN -- "yes" --> DATE
+    RETAIN -- "no" --> ARCHIVE["<b>Archive or delete</b><br/>follow retention policy"]
+
+    style OWNER fill:#e3f2fd,stroke:#1a73e8
+    style DATE fill:#f3e5f5,stroke:#7b1fa2
+    style CHECK fill:#1a237e,stroke:#1a237e,color:#ffffff
+    style IMPACT fill:#fff3e0,stroke:#e65100
+    style REVERIFY fill:#fce4ec,stroke:#c62828
+    style SHARE fill:#e8f5e9,stroke:#2e7d32
+    style RETAIN fill:#fff3e0,stroke:#e65100
+    style ARCHIVE fill:#e8f5e9,stroke:#2e7d32
